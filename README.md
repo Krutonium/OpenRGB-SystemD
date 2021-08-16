@@ -1,1 +1,1 @@
-#OpenRGB Systemd Service
+# OpenRGB Systemd Service
