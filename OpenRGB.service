@@ -1,0 +1,12 @@
+[Unit]
+Description=Start OpenRGB
+
+[Service]
+Type=oneshot
+User=root
+WorkingDirectory="/root"
+RemainAfterExit=yes
+ExecStart=openrgb --server
+
+[Install]
+WantedBy=default.target
